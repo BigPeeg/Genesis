@@ -1,4 +1,4 @@
-FROM python:3.6-stretch
+FROM --platform=linux/arm/v7 python:3.6-stretch
 
 RUN mkdir /app
 WORKDIR /app
